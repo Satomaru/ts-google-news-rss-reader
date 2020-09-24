@@ -1,0 +1,15 @@
+{
+  "name": "ts-google-news-rss-reader",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "10.x",
+    "typescript": "^4.0.3"
+  }
+}
