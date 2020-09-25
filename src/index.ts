@@ -48,7 +48,7 @@ function onDataWhenNotDownloaded(input: string): void {
   if (index >= 0 && index < categoryList.length) {
     topic.download(categoryList[index])
       .then(() => showTopicAndPrompt())
-      .catch(e => console.error(e));
+      .catch((error: any) => console.error(error));
   } else {
     promptCategory();
   }

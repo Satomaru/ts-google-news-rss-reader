@@ -1,4 +1,3 @@
-
 const rimraf = require('rimraf');
 const tsconfig = require('./tsconfig.json');
 const outDir = tsconfig.compilerOptions.outDir;

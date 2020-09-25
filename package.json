@@ -1,5 +1,7 @@
 {
   "name": "ts-google-news-rss-reader",
+  "description": "play.jsでTypeScriptを使用する習作。",
+  "private": true,
   "version": "1.0.0",
   "scripts": {
     "build": "node build.js",
