@@ -2,7 +2,7 @@
   "name": "ts-google-news-rss-reader",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc",
+    "build": "node build.js",
     "start": "node dist/index.js"
   },
   "dependencies": {
@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@types/node": "10.x",
+    "rimraf": "^3.0.2",
     "typescript": "^4.0.3"
   }
 }
